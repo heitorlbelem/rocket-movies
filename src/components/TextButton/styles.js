@@ -4,7 +4,7 @@ export const Container = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.6rem;
+  gap: 0.8rem;
 
   font-size: 1.6rem;
   color: ${({ theme }) => theme.COLORS.PINK};
