@@ -1,9 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .4rem;
+
   width: 100%;
   margin-top: 8px;
-  padding: 1.5rem;
+  padding: 1.5rem 0;
 
   background-color: ${({ theme }) => theme.COLORS.PINK};
   color: ${({ theme }) => theme.COLORS.GRAY_300};
