@@ -10,6 +10,8 @@ export const Container = styled.header`
 
   padding: 4.2rem 12.3rem;
 
+  border-bottom: 1px solid ${({ theme }) => theme.COLORS.GRAY_200};
+
   & > p {
     font-size: 2.4rem;
     font-weight: 700;
