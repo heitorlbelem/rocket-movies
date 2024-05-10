@@ -1,12 +1,14 @@
 export default {
   COLORS: {
     GRAY_100: "#CAC4CF",
+    GRAY_150: "#999591",
     GRAY_200: "#3E3B47",
     GRAY_300: "#312E38",
     GRAY_700: "#262529",
     GRAY_900: "#1C1B1E",    
     
-    PINK: '#FF859B',
+    PINK_OPACITY: "rgba(255, 133, 155, 0.1)",
+    PINK: "rgba(255, 133, 155, 1)",
     WHITE: '#FFF',
   }
 }
