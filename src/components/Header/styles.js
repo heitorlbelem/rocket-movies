@@ -12,7 +12,7 @@ export const Container = styled.header`
 
   border-bottom: 1px solid ${({ theme }) => theme.COLORS.GRAY_200};
 
-  & > p {
+  & > h2 {
     font-size: 2.4rem;
     font-weight: 700;
     color: ${({ theme }) => theme.COLORS.PINK};
@@ -37,8 +37,15 @@ export const Profile = styled.div`
       color: ${({ theme }) => theme.COLORS.WHITE};
     }
 
-    span {
+    a {
       color: ${({ theme }) => theme.COLORS.GRAY_100};
+      text-decoration: none;
+      transition: filter 0.2s;
+
+      &:hover {
+        cursor: pointer;
+        filter: opacity(0.8);
+      }
     }
   }
 `
