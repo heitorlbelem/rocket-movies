@@ -9,6 +9,7 @@ export default {
     
     PINK_OPACITY: "rgba(255, 133, 155, 0.1)",
     PINK: "rgba(255, 133, 155, 1)",
+    PINK_LIGHT: "rgba(255, 140, 155, 1)",
     WHITE: '#FFF',
   }
 }
