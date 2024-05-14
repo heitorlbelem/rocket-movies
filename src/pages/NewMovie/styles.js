@@ -53,3 +53,45 @@ export const Form = styled.form`
     flex: 1;
   }
 `
+
+export const TagsSection = styled.section`
+  width: 100%;
+
+  > h3 {
+    flex: 1;
+    color: ${({ theme }) => theme.COLORS.GRAY_100};
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1.4rem;
+  }
+
+  > ul {
+    padding: 1.6rem;
+    background-color: ${({ theme }) => theme.COLORS.BLACK};
+    border-radius: 8px;
+    display: flex;
+    gap: 2rem;
+  }
+`
+
+export const Tag = styled.li`
+  max-width: 15%;
+
+  list-style: none;
+  padding: .8rem;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+
+  background-color: ${({ theme, newTag }) => newTag ? 'transparent' : theme.COLORS.GRAY_300};
+  color: ${({ theme }) =>  theme.COLORS.WHITE};
+  border: 1px ${({ newTag }) => newTag ? 'dashed' : 'none'};
+
+  svg {
+    color: ${({ theme }) => theme.COLORS.PINK};
+  }
+`
