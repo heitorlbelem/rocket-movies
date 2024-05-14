@@ -10,8 +10,8 @@ export const Container = styled.button`
   margin-top: 8px;
   padding: 1.5rem 0;
 
-  background-color: ${({ theme }) => theme.COLORS.PINK};
-  color: ${({ theme }) => theme.COLORS.GRAY_300};
+  background-color: ${({ theme, dark }) => dark ? theme.COLORS.BLACK : theme.COLORS.PINK};
+  color: ${({ theme, dark }) => dark ? theme.COLORS.PINK : theme.COLORS.GRAY_300};
 
   border: none;
   outline: none;
